@@ -1,0 +1,14 @@
+include https://raw.githubusercontent.com/codemonstur/bobfiles/master/foss-lib-github-maven
+
+vendor: com.github.codemonstur
+name: config
+version: 1.0.0
+packaging: jar
+release: 11
+description: Utility classes for reading configuration
+license:
+  name: MIT
+developer:
+  name: Jurgen Voorneveld
+  email: jegvoorneveld@gmail.com
+enablePreview: false
