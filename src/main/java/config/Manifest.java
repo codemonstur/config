@@ -11,6 +11,7 @@ public enum Manifest {;
     public static java.util.jar.Manifest loadManifest() {
         if (instance == null) {
             try (final var in = Manifest.class.getResourceAsStream("/"+MANIFEST_NAME)) {
+                if (in == null) throw new IOException("Manifest not found");
                 instance = new java.util.jar.Manifest(in);
             } catch (final IOException e) {
                 throw new IllegalArgumentException("Failed to load manifest", e);

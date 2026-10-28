@@ -11,4 +11,7 @@ license:
 developer:
   name: Jurgen Voorneveld
   email: jegvoorneveld@gmail.com
+dependencies:
+  - repository: org.junit.jupiter:junit-jupiter:6.1.3
+    scope: test
 enablePreview: false
