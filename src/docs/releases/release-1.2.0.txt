@@ -1,0 +1,6 @@
+1.2.0
+
+Added JSON, YAML, TOML and HOCON configuration loading
+Added loading from environment variables, system properties, manifests, classpath resources, Properties, input streams, files, paths, URLs and command-line arguments
+Added configuration profiles, prefixes, defaults, case-insensitive keys, remove and clear operations
+Expanded ConfigParser with mandatory and optional accessors for files, paths, URIs, URLs, numbers, booleans and big numbers

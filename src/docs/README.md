@@ -55,7 +55,7 @@ builder so missing values fail at build time.
 <dependency>
   <groupId>com.github.codemonstur</groupId>
   <artifactId>config</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
 </dependency>
 ```
 
